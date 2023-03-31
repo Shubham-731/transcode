@@ -160,7 +160,7 @@ export default function Home() {
             {/* Output code */}
             <div className="w-full h-96 md:h-[32rem] max-w-2xl bg-pink-300 p-3 rounded-xl relative">
               <div
-                className={`bg-[#011627] outline-none w-full h-full resize-none text-white p-2 hover:opacity-95 transition-all rounded-lg ${firaCode.className}`}
+                className={`bg-[#011627] outline-none w-full h-full resize-none text-white p-2 hover:opacity-95 transition-all rounded-lg`}
               >
                 <SyntaxHighlighter
                   language={formik.values.outputCode}
