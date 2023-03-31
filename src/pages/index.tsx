@@ -8,7 +8,6 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { nightOwl } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 import axios from "axios";
 import LoadingDots from "@/components/LoadingDots";
-import ClipboardJS from "clipboard";
 import { useState } from "react";
 
 // Fira code font for codes
