@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/Header";
 import languages from "@/utils/languages";
-import { Fira_Code } from "next/font/google";
 import { useFormik } from "formik";
 import MonacoEditor from "@/components/Editor";
 import SyntaxHighlighter from "react-syntax-highlighter";
@@ -9,9 +8,6 @@ import { nightOwl } from "react-syntax-highlighter/dist/cjs/styles/hljs";
 import axios from "axios";
 import LoadingDots from "@/components/LoadingDots";
 import { useState } from "react";
-
-// Fira code font for codes
-const firaCode = Fira_Code({ weight: ["400"], subsets: ["latin"] });
 
 interface myFormValues {
   inputLang: string;
